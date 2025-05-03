@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Emploi du Temps - SMI S6</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f4f4f4;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+      color: #333;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 12px;
+      text-align: center;
+    }
+    th {
+      background-color: #004080;
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color: #f2f9ff;
+    }
+    .matiere {
+      font-weight: bold;
+      color: #004080;
+    }
+    .prof {
+      font-size: 0.9em;
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Emploi du Temps - SMI S6</h1>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Jour</th>
+        <th>9h00-10h30</th>
+        <th>10h35-12h05</th>
+        <th>12h15-13h45</th>
+        <th>13h50-15h20</th>
+        <th>15h30-17h00</th>
+        <th>17h05-18h35</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lundi</td>
+        <td colspan="2">
+          <div class="matiere">Programmation web dynamique Cours</div>
+          <div class="prof">Prof. K. Omari - Amphi A</div>
+        </td>
+        <td colspan="2">
+          <div class="matiere">Programmation web dynamique TD/TP</div>
+          <div class="prof">Prof. K. Omari - Amphi A</div>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>Mardi</td>
+        <td colspan="6"></td>
+      </tr>
+      <tr>
+        <td>Mercredi</td>
+        <td colspan="6"></td>
+      </tr>
+      <tr>
+        <td>Jeudi</td>
+        <td colspan="2">
+          <div class="matiere">Génie Logiciel Cours</div>
+          <div class="prof">Prof. A. Bouain</div>
+        </td>
+        <td colspan="2">
+          <div class="matiere">Génie Logiciel TD/TP</div>
+          <div class="prof">Prof. A. Bouain</div>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>Vendredi</td>
+        <td colspan="2">
+          <div class="matiere">IHM Cours</div>
+          <div class="prof">Prof. M. Benaddy - Amphi A</div>
+        </td>
+        <td colspan="2">
+          <div class="matiere">IHM TD</div>
+          <div class="prof">Prof. M. Benaddy - Amphi A</div>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+      <tr>
+        <td>Samedi</td>
+        <td colspan="2">
+          <div class="matiere">Modélisation TD</div>
+          <div class="prof">Prof. J. Oudaani - Amphi A</div>
+        </td>
+        <td colspan="2">
+          <div class="matiere">Modélisation Cours</div>
+          <div class="prof">Prof. A. El Mouatasim - Amphi A</div>
+        </td>
+        <td colspan="2"></td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
